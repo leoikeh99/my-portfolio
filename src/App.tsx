@@ -1,5 +1,13 @@
+import Header from "./components/Header";
+import Hero from "./sections/Hero";
+
 function App() {
-  return <div className="bg-background">My portfolio</div>;
+  return (
+    <main>
+      <Header />
+      <Hero />
+    </main>
+  );
 }
 
 export default App;

@@ -1,3 +1,7 @@
 @theme{
     --color-background: #282C33;
+    --color-foreground: #FFFFFF; 
+    --color-primary: #C778DD;
+    --color-gray: #ABB2BF;
+    --font-primary:"Fira Code", monospace;
 }
