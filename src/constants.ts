@@ -76,3 +76,26 @@ export const PROJECTS = [
     techStack: ["CSS3", "JAVASCRIPT", "REACTJS", "STYLED-COMPONENTS"],
   },
 ];
+
+export const SKILLS = [
+  {
+    title: "Languages",
+    items: ["Typescript", "Java", "Javascript"],
+  },
+  {
+    title: "Databases",
+    items: ["Mongodb", "Postgresql", "MySQL", "SQLite"],
+  },
+  {
+    title: "Other",
+    items: ["HTML", "CSS", "Git", "Nodejs", "Tailwindcss", "Styled-components"],
+  },
+  {
+    title: "Libraries",
+    items: ["React Query", "React Router", "React Hook Form"],
+  },
+  {
+    title: "Frameworks",
+    items: ["ReactJS", "NextJS", "ExpressJs"],
+  },
+];
