@@ -1,9 +1,25 @@
 @import "tailwindcss"; 
 
 .btn{
-    @apply px-4 py-2 inline-block;
+    @apply px-4 transition-colors duration-200 ease-in-out inline-flex gap-3 items-center h-10 justify-start;
 }
 
 .btn-primary{
-    @apply border border-primary text-foreground;
+    @apply border border-primary text-foreground hover:bg-primary-hover;
+}
+
+.btn-secondary{
+    @apply border border-gray text-foreground hover:bg-gray-hover;
+}
+
+.sub-heading{
+    @apply text-[2rem]
+}
+
+.sub-heading span:first-child{
+    @apply text-primary;
+}
+
+.sub-heading span:last-child{
+    @apply inline-block ml-4 w-[min(32rem,100%)] bg-primary border border-primary mb-2.5;
 }
