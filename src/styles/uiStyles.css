@@ -5,11 +5,11 @@
 }
 
 .btn-primary{
-    @apply border border-primary text-foreground hover:bg-primary-hover;
+    @apply border border-primary text-foreground hover:bg-primary-hover focus:outline-none focus:bg-primary-hover;
 }
 
 .btn-secondary{
-    @apply border border-gray text-foreground hover:bg-gray-hover;
+    @apply border border-gray text-foreground hover:bg-gray-hover focus:outline-none focus:bg-gray-hover;
 }
 
 .sub-heading{
@@ -21,5 +21,13 @@
 }
 
 .sub-heading span:last-child{
-    @apply inline-block ml-4 w-[min(32rem,100%)] bg-primary border border-primary mb-2.5;
+    @apply inline-block ml-4 w-[min(32rem,75%)] bg-primary border border-primary mb-2.5;
+}
+
+input,textarea{
+    @apply border border-gray block w-full py-2 px-3 sm:py-3 sm:px-4 min-h-[3rem] focus:outline-none focus:ring-2 focus:ring-primary;
+}
+
+textarea{
+    @apply resize-none min-h-40;
 }

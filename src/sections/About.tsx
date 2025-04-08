@@ -1,6 +1,5 @@
 import ProfileImage from "../assets/profile2.png";
 import SquareDots from "../assets/square-dots.svg";
-import SquareDots2 from "../assets/square-dots2.svg";
 
 const About = () => {
   return (
