@@ -4,7 +4,7 @@ import SquareDots from "../assets/square-dots.svg";
 const About = () => {
   return (
     <section>
-      <div className="max-w-[64rem] mx-auto py-7">
+      <div className="container py-7">
         <h2 className="sub-heading mb-4">
           <span>#</span>about-me<span></span>
         </h2>

@@ -2,7 +2,7 @@ import Logo from "../assets/logo.svg";
 const Header = () => {
   return (
     <header>
-      <div className="max-w-[64rem] mx-auto py-7">
+      <div className="container py-7">
         <div className="flex justify-between">
           <a href="" className="font-bold">
             <span className="flex items-center gap-2">

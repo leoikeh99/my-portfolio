@@ -4,7 +4,7 @@ import GithubIcon from "../assets/github.svg";
 const Projects = () => {
   return (
     <section>
-      <div className="max-w-[64rem] mx-auto py-7">
+      <div className="container py-7">
         <h2 className="sub-heading mb-10">
           <span>#</span>projects<span></span>
         </h2>

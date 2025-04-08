@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <section>
-      <div className="max-w-[64rem] mx-auto py-7">
+      <div className="container py-7">
         <h2 className="sub-heading mb-5">
           <span>#</span>contact-me<span></span>
         </h2>

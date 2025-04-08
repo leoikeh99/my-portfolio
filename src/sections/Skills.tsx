@@ -4,7 +4,7 @@ import { SKILLS } from "../constants";
 
 const Skills = () => {
   return (
-    <div className="max-w-[64rem] mx-auto py-7">
+    <div className="container py-7">
       <h2 className="sub-heading mb-4">
         <span>#</span>skills<span></span>
       </h2>

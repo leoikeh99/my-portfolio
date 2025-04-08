@@ -6,7 +6,7 @@ import QuoteIcon from "../assets/quote.svg";
 export default function Hero() {
   return (
     <section className="mt-2">
-      <div className="max-w-[64rem] mx-auto py-7">
+      <div className="container py-7">
         <div className="flex gap-2 items-center">
           <div className="min-w-[33.6rem] space-y-6 -mt-13">
             <h1 className="font-semibold text-[2rem] leading-10">
