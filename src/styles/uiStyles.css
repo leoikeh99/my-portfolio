@@ -13,7 +13,7 @@
 }
 
 .sub-heading{
-    @apply text-[2rem]
+    @apply text-xl sm:text-[2rem] flex items-center;
 }
 
 .sub-heading span:first-child{
@@ -21,7 +21,7 @@
 }
 
 .sub-heading span:last-child{
-    @apply inline-block ml-4 w-[min(32rem,75%)] bg-primary border border-primary mb-2.5;
+    @apply inline-block ml-4 h-[1px] w-[min(32rem,50%)] bg-primary border border-primary;
 }
 
 input,textarea{

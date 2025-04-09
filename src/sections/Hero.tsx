@@ -5,33 +5,38 @@ import QuoteIcon from "../assets/quote.svg";
 
 export default function Hero() {
   return (
-    <section className="mt-2">
-      <div className="container py-7">
-        <div className="flex gap-2 items-center">
-          <div className="min-w-[33.6rem] space-y-6 -mt-13">
-            <h1 className="font-semibold text-[2rem] leading-10">
+    <section id="home" className="mt-2">
+      <div className="container max-w-[28.75rem]:pt-7 pb-7 pt-22">
+        <div className=" flex-col min-[62.5rem]:flex-row flex gap-2 items-center">
+          <div className="min-[62.5rem]:min-w-[33.6rem] space-y-3 min-[62.5rem]:space-y-6 -mt-13">
+            <h1 className="font-semibold text-3xl sm:text-[2rem] leading-10 text-center min-[62.5rem]:text-left">
               Leonard is a{" "}
               <span className="text-primary">full-stack developer</span>
             </h1>
-            <p className="text-gray">
+            <p className="text-gray text-center max-w-[40rem] min-[62.5rem]:text-left">
               He creates responsive applications and builds backend
               infrastructure
             </p>
-            <a href="#" className="btn btn-primary">
-              Contact me!!
-            </a>
+            <div className="flex">
+              <a
+                href="#contact"
+                className="btn btn-primary mx-auto min-[62.5rem]:mx-0"
+              >
+                Contact me!!
+              </a>
+            </div>
           </div>
-          <div className="w-full flex items-end flex-col relative">
+          <div className="w-full flex items-end flex-col relative max-w-[28.75rem]">
             <img
               src={LogoOutline}
               alt=""
-              className="absolute top-22 left-2 w-[9.7rem]"
+              className="absolute top-22 left-2 w-[6.5rem] sm:w-[9.7rem]"
             />
             <div className="relative">
               <img
                 src={SquareDots}
                 alt=""
-                className="absolute bottom-25 right-3"
+                className="absolute bottom-25 right-3 w-[3.5rem] sm:w-[5.25rem]"
               />
               <img src={ProfilePic} alt="" />
               <p className="w-full border text-gray border-gray max-w-[26rem] mx-auto p-2 flex items-center gap-2">
@@ -50,7 +55,7 @@ export default function Hero() {
 
 export const Quote = () => {
   return (
-    <div className="mt-25 w-fit mx-auto flex flex-col text-2xl">
+    <div className="mt-25 w-fit mx-auto flex flex-col text-xl sm:text-2xl">
       <div className="border border-gray px-5 py-7 relative">
         <span className="absolute -top-3 left-3 py-1 px-2 bg-background">
           <img src={QuoteIcon} alt="" />

@@ -4,7 +4,11 @@
 @import "./styles/layoutStyles.css";
 
 @layer base { 
+  html{
+    @apply scroll-smooth
+  }
+  
   body {
-    @apply bg-background text-foreground font-primary; 
+    @apply bg-background text-foreground font-primary scroll-smooth; 
   }
 }

@@ -10,11 +10,13 @@ function App() {
   return (
     <main>
       <Header />
-      <Hero />
-      <Skills />
-      <Projects />
-      <About />
-      <Contact />
+      <div className="pt-[5.435rem]">
+        <Hero />
+        <Skills />
+        <Projects />
+        <About />
+        <Contact />
+      </div>
       <Footer />
     </main>
   );

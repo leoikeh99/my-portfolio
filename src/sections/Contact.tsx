@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section>
+    <section id="contact">
       <div className="container py-7">
         <h2 className="sub-heading mb-5">
           <span>#</span>contact-me<span></span>

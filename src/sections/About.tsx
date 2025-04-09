@@ -3,12 +3,12 @@ import SquareDots from "../assets/square-dots.svg";
 
 const About = () => {
   return (
-    <section>
+    <section id="about-me">
       <div className="container py-7">
         <h2 className="sub-heading mb-4">
           <span>#</span>about-me<span></span>
         </h2>
-        <div className="grid grid-cols-2">
+        <div className="min-[62.5rem]:grid grid-cols-2">
           <div className="text-gray space-y-6 mt-5">
             <p>Hello, i'm Leonard!</p>
             <p>
@@ -28,7 +28,7 @@ const About = () => {
               Contact Me {"->"}
             </a>
           </div>
-          <div className="flex items-end relative flex-col">
+          <div className="hidden min-[62.5rem]:flex items-end relative flex-col">
             <img src={SquareDots} alt="" className="absolute top-5 right-65" />
             <img src={ProfileImage} alt="" className="-mt-10" />
             <div className="border border-b border-primary w-full max-w-[15rem] mr-9"></div>

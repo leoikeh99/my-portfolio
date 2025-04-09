@@ -3,20 +3,20 @@ import GithubIcon from "../assets/github.svg";
 
 const Projects = () => {
   return (
-    <section>
+    <section id="projects">
       <div className="container py-7">
         <h2 className="sub-heading mb-10">
           <span>#</span>projects<span></span>
         </h2>
-        <div className="grid grid-cols-3 gap-2.5">
+        <div className="grid sm:grid-cols-2 min-[55.5rem]:grid-cols-3 gap-2.5 justify-center">
           {PROJECTS.map((project, index) => (
-            <div key={index} className="border border-gray">
+            <div key={index} className="border border-gray max-w-[25rem]">
               <div className="border-b border-gray">
                 <img src={project.image} alt="" />
               </div>
               <div className="p-2 border-b border-gray text-gray flex gap-2 flex-wrap">
-                {project.techStack.map((stack) => (
-                  <span>{stack}</span>
+                {project.techStack.map((stack, index) => (
+                  <span key={`${index}-d`}>{stack}</span>
                 ))}
               </div>
               <div className="p-4 space-y-4">
