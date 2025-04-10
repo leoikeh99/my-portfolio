@@ -1,7 +1,7 @@
 @import "tailwindcss"; 
 
 .btn{
-    @apply px-4 transition-colors duration-200 ease-in-out inline-flex gap-3 items-center h-10 justify-start;
+    @apply px-4 transition-colors duration-200 ease-in-out inline-flex gap-3 items-center h-10 justify-start disabled:opacity-45;
 }
 
 .btn-primary{

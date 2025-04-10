@@ -6,7 +6,7 @@ import QuoteIcon from "../assets/quote.svg";
 export default function Hero() {
   return (
     <section id="home" className="mt-2">
-      <div className="container max-w-[28.75rem]:pt-7 pb-7 pt-22">
+      <div className="container max-w-[28.75rem]:pt-7 pb-7 pt-15">
         <div className=" flex-col min-[62.5rem]:flex-row flex gap-2 items-center">
           <div className="min-[62.5rem]:min-w-[33.6rem] space-y-3 min-[62.5rem]:space-y-6 -mt-13">
             <h1 className="font-semibold text-3xl sm:text-[2rem] leading-10 text-center min-[62.5rem]:text-left">
@@ -63,10 +63,10 @@ export const Quote = () => {
         <span className="absolute -bottom-4 right-3 py-1 px-2 bg-background">
           <img src={QuoteIcon} alt="" />
         </span>
-        <p>With great power comes great electricity bill</p>
+        <p>Simplicity is the soul of efficiency</p>
       </div>
       <div className="border-x border-b border-gray py-5 px-3 inline-block self-end">
-        <p>- Dr. Who</p>
+        <p>- Austin Freeman</p>
       </div>
     </div>
   );

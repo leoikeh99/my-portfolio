@@ -1,5 +1,36 @@
 export const PROJECTS = [
   {
+    title: "Dev Collaborate",
+    description: "Collaborate and build with other developers",
+    image: "/projects/devcollaborate.png",
+    live: "https://devcollaborate.com/",
+    techStack: [
+      "NEXTJS",
+      "REACTJS",
+      "STRIPE",
+      "TAILWIND",
+      "TYPESCRIPT",
+      "POSTGRESDB",
+      "JAVASCRIPT",
+    ],
+  },
+  {
+    title: "Covenant of Grace - RCCG",
+    description: "Church website.",
+    image: "/projects/cog.png",
+    live: "https://trccgcog.org/media",
+    code: null,
+    techStack: [
+      "MERN",
+      "REACTJS",
+      "NODEJS",
+      "TAILWIND",
+      "EXPRESSJS",
+      "TYPESCRIPT",
+      "JAVASCRIPT",
+    ],
+  },
+  {
     title: "Unsplash",
     code: "https://github.com/leoikeh99/unsplash-collection",
     description: "Unsplash clone",
@@ -44,21 +75,7 @@ export const PROJECTS = [
       "JAVASCRIPT",
     ],
   },
-  {
-    title: "TIC-TAC-TOE online multiplayer game",
-    description: "Online multiplayer tic-tac-toe.",
-    image:
-      "https://res.cloudinary.com/wazza99/image/upload/v1674649040/tictactoe_mblhap.png",
-    live: "https://tic-tac-toe-ma15.onrender.com",
-    code: "https://github.com/leoikeh99/tic-tac-toe-online",
-    techStack: [
-      "STYLED-COMPONENTS",
-      "WEBSOCKETS",
-      "JAVASCRIPT",
-      "REACTJS",
-      "NODEJS",
-    ],
-  },
+
   {
     title: "World Ranks",
     description: "Country information app.",
@@ -66,14 +83,6 @@ export const PROJECTS = [
     live: "https://world-ranks-sable.vercel.app/",
     code: "https://github.com/leoikeh99/world-ranks",
     techStack: ["TYPESCRIPT", "REACTJS", "TAILWIND CSS"],
-  },
-  {
-    title: "Dictionary app",
-    description: "Online dictionary app.",
-    image: "/projects/dictionary.png",
-    live: "https://joyful-chebakia-d3a599.netlify.app/",
-    code: "https://github.com/leoikeh99/dictionary-app",
-    techStack: ["CSS3", "JAVASCRIPT", "REACTJS", "STYLED-COMPONENTS"],
   },
 ];
 

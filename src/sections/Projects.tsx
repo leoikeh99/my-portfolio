@@ -30,14 +30,16 @@ const Projects = () => {
                   >
                     Live <span>{"<~>"}</span>
                   </a>
-                  <a
-                    href={project.code}
-                    target="_blank"
-                    className="btn btn-secondary"
-                  >
-                    Code
-                    <img src={GithubIcon} alt="" />
-                  </a>
+                  {project.code && (
+                    <a
+                      href={project.code}
+                      target="_blank"
+                      className="btn btn-secondary"
+                    >
+                      Code
+                      <img src={GithubIcon} alt="" />
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
