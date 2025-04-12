@@ -84,6 +84,22 @@ export const PROJECTS = [
     code: "https://github.com/leoikeh99/world-ranks",
     techStack: ["TYPESCRIPT", "REACTJS", "TAILWIND CSS"],
   },
+  {
+    title: "UseSortable React Hook",
+    description:
+      "React hook used for sorting complex drag and drop data structures",
+    image: null,
+    live: null,
+    npm: "https://www.npmjs.com/package/@wazza99/use-sortable",
+    code: "https://github.com/leoikeh99/use-sortable",
+    techStack: [
+      "REACTJS",
+      "JAVASCRIPT",
+      "OPEN-SOURCE",
+      "DATA STRUCTURES",
+      "ALGORITHMS",
+    ],
+  },
 ];
 
 export const SKILLS = [

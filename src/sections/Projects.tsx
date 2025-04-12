@@ -1,5 +1,6 @@
 import { PROJECTS } from "../constants";
 import GithubIcon from "../assets/github.svg";
+import NpmIcon from "../assets/npm.svg";
 
 const Projects = () => {
   return (
@@ -11,9 +12,11 @@ const Projects = () => {
         <div className="grid sm:grid-cols-2 min-[55.5rem]:grid-cols-3 gap-2.5 justify-center">
           {PROJECTS.map((project, index) => (
             <div key={index} className="border border-gray max-w-[25rem]">
-              <div className="border-b border-gray">
-                <img src={project.image} alt="" />
-              </div>
+              {project.image && (
+                <div className="border-b border-gray">
+                  <img src={project.image} alt="" />
+                </div>
+              )}
               <div className="p-2 border-b border-gray text-gray flex gap-2 flex-wrap">
                 {project.techStack.map((stack, index) => (
                   <span key={`${index}-d`}>{stack}</span>
@@ -23,13 +26,23 @@ const Projects = () => {
                 <h3 className="text-2xl font-medium">{project.title}</h3>
                 <p className="text-gray">{project.description}</p>
                 <div className="flex gap-2">
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    className="btn btn-primary"
-                  >
-                    Live <span>{"<~>"}</span>
-                  </a>
+                  {project.live ? (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      className="btn btn-primary"
+                    >
+                      Live <span>{"<~>"}</span>
+                    </a>
+                  ) : project.npm ? (
+                    <a
+                      href={project.npm}
+                      target="_blank"
+                      className="btn btn-secondary"
+                    >
+                      <img src={NpmIcon} alt="" className="w-10" />
+                    </a>
+                  ) : null}
                   {project.code && (
                     <a
                       href={project.code}
