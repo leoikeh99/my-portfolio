@@ -14,10 +14,13 @@ const Footer = () => {
             </span>
           </a>
           <div className="flex gap-2 mt-2 items-center">
-            <a href="">
+            <a href="https://github.com/leoikeh99" target="_blank">
               <img src={Github} alt="" />
             </a>
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/leonard-ikeh-22367a209"
+              target="_blank"
+            >
               <img src={Linkedin} alt="" />
             </a>
           </div>
